@@ -1,0 +1,54 @@
+ul{
+	list-style: none;
+}
+ul,h3{
+	margin: 0;padding: 0;
+}
+li h3{
+	font-size: 14px;
+	font-weight: 400;
+}
+li{
+	display: block;
+	height:42px;
+	line-height: 42px;
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+}
+li i{
+	background: url(../img/CssGaga.png);
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin: 3px 10px 0 10px;
+}
+.cat{
+	width: 150px;
+	background: #f8f8f8;
+	border: 1px solid #bbb;
+}
+/* css写法 */
+/* .cat-1 i{
+	background-position: 0 0;
+}
+.cat-2 i{
+	background-position: -34px 0;
+}
+.cat-3 i{
+	background-position: -68px 0;
+}
+.cat-4 i{
+	background-position: -102px 0;
+}
+.cat-5 i{
+	background-position: -136px 0;
+}
+.cat-6 i{
+	background-position: -170px 0;
+}
+.cat-7 i{
+	background-position: -204px 0;
+}
+.cat-8 i{
+	background-position: -238px 0;
+} */
