@@ -1,0 +1,1 @@
+Object.getPrototypeOf({ __proto__: null }) === null
