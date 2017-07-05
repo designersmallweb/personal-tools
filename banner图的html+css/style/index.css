@@ -1,0 +1,55 @@
+/* 公用 */
+.comWidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* banner */
+.banner-bar{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.banner-big {
+	position:absolute;
+	left:50%;
+	top: 0;
+	margin-left:-406px;/*图片宽度的一半*/
+}
+.imgBox{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgBox li{
+	float: left;
+}
+.imgBox img{
+	display: block;
+}
+.imgNum{
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.imgNum a{
+	width: 20px;
+	height: 5px;
+	overflow: hidden;
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 3px;
+}
+.imgNum .active{
+	background-color: #FF7700;
+}
+.banner-big, .banner-big img{
+	width: 810px;/*图片宽度*/
+	height: 320px;
+}
+.banner-big .imgBox{
+	width: 1620px;/*图片宽度*2*/
+	height: 320px;
+}

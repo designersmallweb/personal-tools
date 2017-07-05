@@ -1,0 +1,29 @@
+/* 为受浮动影响的元素设置 */
+.clearfix-next1{
+	clear:both;
+}
+.clearfix-next2{width:100%;
+	overflow:hidden;
+}
+/* 为设置浮动元素的父元素设置 */
+.clearfix1:after{
+	content:"";
+	display:block;
+	clear:both;
+	/*height: 0;*/
+	/*line-height: 0;*/
+	font-size: 0;
+}
+.clearfix1{
+	*zoom:1
+}
+.clearfix2{
+	overflow:auto;
+	_height:1%
+}
+.clearfix3{
+	overflow:hidden;
+	_zoom:1;
+}
+   
+    
