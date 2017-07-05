@@ -1,0 +1,23 @@
+@font-face{
+  font-family: "Raphaelicons";
+  src: url("../fonts/raphaelicons-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raphaelicons-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+             url("../fonts/raphaelicons-webfont.woff") format("woff"), /* Modern Browsers */
+             url("../fonts/raphaelicons-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+             url("../fonts/raphaelicons-webfont.svg") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+  font-family: Arial;
+  background: #ddd;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333;
+  overflow: hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
